@@ -1,0 +1,37 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "error": "Error",
+    "warning": "Warning",
+    "confirm": "Confirm"
+  },
+  "users": {
+    "title": "User Directory",
+    "fetchUsers": "Fetch Users",
+    "clearUsers": "Clear Users",
+    "usersAvailable": "{{count}} users available",
+    "noUsersAvailable": "No users available",
+    "loadingUsers": "Loading users...",
+    "deleteUser": "Delete User",
+    "deleteConfirmMessage": "Are you sure you want to delete \"{{userName}}\"? This action cannot be undone.",
+    "warningMessage": "Please clear users before fetching new ones"
+  },
+  "table": {
+    "id": "ID",
+    "name": "Name",
+    "username": "Username",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "city": "City",
+    "company": "Company",
+    "actions": "Actions"
+  },
+  "alertDialog": {
+    "title": "{{title}}",
+    "message": "{{message}}"
+  }
+}

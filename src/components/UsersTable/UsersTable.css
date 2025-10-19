@@ -1,0 +1,119 @@
+.table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+.users-table th {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: 600;
+  padding: 1rem 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.users-table td {
+  color: #333;
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+}
+
+.users-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.users-table a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.users-table a:hover {
+  text-decoration: underline;
+}
+
+.actions-cell {
+  text-align: center;
+  padding: 0.5rem;
+  white-space: nowrap;
+}
+
+.actions-cell .btn {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  min-height: 28px;
+}
+
+.no-users {
+  text-align: center;
+  padding: 1rem;
+  color: #646cff;
+  font-weight: 500;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.loading-spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #646cff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 0.5rem;
+}
+
+.loading-text {
+  font-size: 0.9rem;
+  color: #646cff;
+  font-weight: 500;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+  .users-table {
+    font-size: 0.8rem;
+  }
+  
+  .users-table th,
+  .users-table td {
+    padding: 0.5rem 0.25rem;
+  }
+  
+  .loading-container {
+    padding: 0.5rem;
+  }
+  
+  .loading-spinner {
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+  }
+  
+  .loading-text {
+    font-size: 0.8rem;
+  }
+}
