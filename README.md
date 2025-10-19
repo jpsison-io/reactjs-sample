@@ -19,6 +19,14 @@ A modern React + TypeScript application built with Vite, with comprehensive lint
 npm install
 ```
 
+### 2. Prepare Husky
+
+```bash
+npm run prepare
+```
+
+This enables pre-commit hook
+
 ### 2. Run the Development Server
 
 ```bash
