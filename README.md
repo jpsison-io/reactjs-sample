@@ -2,6 +2,10 @@
 
 A modern React + TypeScript application built with Vite, with comprehensive linting, pre-commit hooks, Redux Toolkit state management, and Node.js version management.
 
+## Live Demo
+
+**[View Live Demo](https://sample-reactjs-c6d21.web.app/)**
+
 ## Prerequisites
 
 - **Node.js**: Version 22.x (LTS) - see [Node.js version management](#nodejs-version-management)
